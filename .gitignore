@@ -1,0 +1,5 @@
+#Ignore Data
+Data/
+
+#Ignore Python Checkpoints
+.ipynb_checkpoints/
