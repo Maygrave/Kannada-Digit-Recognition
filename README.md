@@ -30,15 +30,16 @@ In creating this model, I decided to implement a three stage training process to
 
 #### Model Architecture
 
+The architecture of the model can be seen in the `Kannada Digit Recognition` notebook.
 
 #### Training Step 1
 For this step, the training data originally found in the `train.csv` file was split into a training and testing group. The model was then trained on the training split and validated against the testing split.
-The model was found, at this stage, to have an average accuracy of AVGAC%, and an average validation accuracy of AVEVALAC%. The below plots show the history of the accuracies and the losses found throughout the training process.
+At this stage the average training and validation accuracy and loss was reviewed. The below plots show the history of the accuracies and the losses found throughout the training process.
 !["Accuracy of the Model throughout training in the first training step"](Images/Accuracy_TrainS1.png)
 !["Loss of the model throughout training in the first training step"](Images/Loss_trainS1.png)
 
 #### Training Step 2
-For this training step, the entirity of the training set was used as training data for the model, and the validation set, `Dig-MNIST.csv`, was used for the validation data. At this stage, the average accuracy for the training was AVEAC% and the average validation accuracy was AVEVALAC%. Again, as above, we have plots showing the history of the accuracies and losses calculated throuhout the training process.
+For this training step, the entirity of the training set was used as training data for the model, and the validation set, `Dig-MNIST.csv`, was used for the validation data. At this stage, the average training and validation accuracy and loss for the model was reviewed, and visualized. The plots showing the history of the accuracies and losses calculated throughout the training process can be seen below.
 !["Accuracy of the Model throughout training in the second training step"](Images/Accuracy_TrainS2.png)
 !["Loss of the model throughout training in the second training step"](Images/Loss_trainS2.png)
 
@@ -48,6 +49,9 @@ Finally, for the third training step a concatenation of the training and validat
 !["Accuracy of the Model throughout training in the third training step"](Images/Accuracy_TrainS3.png)
 
 !["Loss of the model throughout training in the third training step"](Images/Loss_trainS3.png)
+
+## Results
+The final submission for this model was 98.5% accurate on the public score set.
 
 ### Requirements
 The dependancies for this project can be found in the the `requirements.txt` file.
