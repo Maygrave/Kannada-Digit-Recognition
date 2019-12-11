@@ -3,3 +3,6 @@ Data/
 
 #Ignore Python Checkpoints
 .ipynb_checkpoints/
+
+#Submissions
+Submissions/
