@@ -36,7 +36,7 @@ The architecture of the model can be seen in the `Kannada Digit Recognition` not
 For this step, the training data originally found in the `train.csv` file was split into a training and testing group. The model was then trained on the training split and validated against the testing split.
 At this stage the average training and validation accuracy and loss was reviewed. The below plots show the history of the accuracies and the losses found throughout the training process.
 !["Accuracy of the Model throughout training in the first training step"](Images/Accuracy_TrainS1.png)
-!["Loss of the model throughout training in the first training step"](Images/Loss_trainS1.png)
+!["Loss of the model throughout training in the first training step"](Images/Loss_TrainS1.png)
 
 #### Training Step 2
 For this training step, the entirity of the training set was used as training data for the model, and the validation set, `Dig-MNIST.csv`, was used for the validation data. At this stage, the average training and validation accuracy and loss for the model was reviewed, and visualized. The plots showing the history of the accuracies and losses calculated throughout the training process can be seen below.
