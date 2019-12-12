@@ -43,8 +43,8 @@ At this stage the average training and validation accuracy and loss was reviewed
 For this training step, the entirity of the training set was used as training data for the model, and the validation set, `Dig-MNIST.csv`, was used for the validation data. At this stage, the average training and validation accuracy and loss for the model was reviewed, and visualized. The plots showing the history of the accuracies and losses calculated throughout the training process can be seen below.
 
 <p float="center">
-  <img src="Images/Accuracy_TrainS2.png" alt="Accuracy of the Model throughout training in the second training step" width=450 />
-  <img src="Images/Loss_TrainS2.png" alt="Loss of the model throughout training in the second training step" width="450" />
+  <img src="Images/Accuracy_TrainS2.png" alt="Accuracy of the Model throughout training in the second training step" width=425 />
+  <img src="Images/Loss_TrainS2.png" alt="Loss of the model throughout training in the second training step" width="425" />
 </p>
 
 #### Training Step 3
