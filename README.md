@@ -36,8 +36,10 @@ The architecture of the model can be seen in the `Kannada Digit Recognition` not
 For this step, the training data originally found in the `train.csv` file was split into a training and testing group. The model was then trained on the training split and validated against the testing split.
 At this stage the average training and validation accuracy and loss was reviewed. The below plots show the history of the accuracies and the losses found throughout the training process.
 
-!["Accuracy of the Model throughout training in the first training step"](Images/Accuracy_TrainS1.png)
-!["Loss of the model throughout training in the first training step"](Images/Loss_TrainS1.png)
+<p float="center">
+  <img src="Images/Accuracy_TrainS1.png" alt="Accuracy of the Model throughout training in the first training step" width=425 />
+  <img src="Images/Loss_TrainS1.png" alt="Loss of the model throughout training in the first training step" width="425" />
+</p>
 
 #### Training Step 2
 For this training step, the entirity of the training set was used as training data for the model, and the validation set, `Dig-MNIST.csv`, was used for the validation data. At this stage, the average training and validation accuracy and loss for the model was reviewed, and visualized. The plots showing the history of the accuracies and losses calculated throughout the training process can be seen below.
@@ -50,8 +52,11 @@ For this training step, the entirity of the training set was used as training da
 #### Training Step 3
 Finally, for the third training step a concatenation of the training and validation sets was used to train the model, while the validation data, `Dig-MNIST.csv` was again used as the validation data. For this step only, the validation data was also augmented using the `ImageDataGenerator`. As with the previous two steps, plots showing the history of the accuracies and losses were generated to review the models training performance.
 
-!["Accuracy of the Model throughout training in the third training step"](Images/Accuracy_TrainS3.png)
-!["Loss of the model throughout training in the third training step"](Images/Loss_TrainS3.png)
+<p float="center">
+  <img src="Images/Accuracy_TrainS3.png" alt="Accuracy of the Model throughout training in the third training step" width=425 />
+  <img src="Images/Loss_TrainS3.png" alt="Loss of the model throughout training in the third training step" width="425" />
+</p>
+
 
 ## Results
 The final submission for this model was 98.5% accurate on the public score set.
