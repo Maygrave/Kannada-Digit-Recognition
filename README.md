@@ -42,15 +42,16 @@ At this stage the average training and validation accuracy and loss was reviewed
 #### Training Step 2
 For this training step, the entirity of the training set was used as training data for the model, and the validation set, `Dig-MNIST.csv`, was used for the validation data. At this stage, the average training and validation accuracy and loss for the model was reviewed, and visualized. The plots showing the history of the accuracies and losses calculated throughout the training process can be seen below.
 
-!["Accuracy of the Model throughout training in the second training step"](Images/Accuracy_TrainS2.png)
-!["Loss of the model throughout training in the second training step"](Images/Loss_trainS2.png)
-
+<p float="left">
+  <img src="Images/Accuracy_TrainS2.png" alt="Accuracy of the Model throughout training in the second training step" width=300 />
+  <img src="Images/Loss_TrainS2.png" alt="Loss of the model throughout training in the second training step" width="300" />
+</p>
 
 #### Training Step 3
 Finally, for the third training step a concatenation of the training and validation sets was used to train the model, while the validation data, `Dig-MNIST.csv` was again used as the validation data. For this step only, the validation data was also augmented using the `ImageDataGenerator`. As with the previous two steps, plots showing the history of the accuracies and losses were generated to review the models training performance.
 
 !["Accuracy of the Model throughout training in the third training step"](Images/Accuracy_TrainS3.png)
-!["Loss of the model throughout training in the third training step"](Images/Loss_trainS3.png)
+!["Loss of the model throughout training in the third training step"](Images/Loss_TrainS3.png)
 
 ## Results
 The final submission for this model was 98.5% accurate on the public score set.
