@@ -59,7 +59,7 @@ Finally, for the third training step a concatenation of the training and validat
 
 
 ## Results
-The final submission for this model was 98.5% accurate on the public score set.
+The final submission for this model was 98.5% accurate on the public score set, and 98.6% accurate on the private score set. I completed the competition in the top 26% of all competitors.
 
 ### Requirements
 The dependancies for this project can be found in the the `requirements.txt` file.
